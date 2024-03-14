@@ -1,0 +1,19 @@
+name: fluoscam
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pandas
+  - numpy
+  - scipy
+  - seaborn
+  - setuptools
+  - scikit-learn
+  - jupyter
+  - click
+  - plotly
+  - rdkit
+  - optuna
+  - mlflow
+  - pip:
+    - tables
